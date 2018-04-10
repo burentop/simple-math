@@ -12,8 +12,14 @@ class AddTwo
     var intNum1 = int.Parse(stringNum1);
     var intNum2 = int.Parse(stringNum2);
 
-    var outputStringNum = (intNum1 + intNum2).ToString();
-    Console.WriteLine(stringNum1 + " + " + stringNum2 + " = " + outputStringNum);
+    var outputStringAdd = (intNum1 + intNum2).ToString();
+    var outputStringSubtract = (intNum1 - intNum2).ToString();
+    var outputStringMultiply = (intNum1 * intNum2).ToString();
+    var outputStringDivide = (intNum1 / intNum2).ToString();
+    Console.WriteLine(stringNum1 + " + " + stringNum2 + " = " + outputStringAdd);
+    Console.WriteLine(stringNum1 + " - " + stringNum2 + " = " + outputStringSubtract);
+    Console.WriteLine(stringNum1 + " * " + stringNum2 + " = " + outputStringMultiply);
+    Console.WriteLine(stringNum1 + " / " + stringNum2 + " = " + outputStringDivide);
   }
   
 }
